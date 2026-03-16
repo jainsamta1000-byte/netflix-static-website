@@ -1,0 +1,483 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("netflixteaser.png");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  justify-self: end;
+  column-gap: 40%;
+  align-items: center;
+  background-color: black;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+nav .buttons {
+  display: flex;
+  width: 24%;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+  width: 7.8em;
+  border-radius: 0.37em;
+  height: 2em;
+  border: 0.06em solid white;
+  font-size: 1.1rem;
+  font-family: unset;
+}
+
+.btn2 {
+  width: 5rem;
+  background-color: rgba(247, 30, 30, 0.94);
+  font-family: unset;
+  font-weight: bolder;
+  color: white;
+  height: 2.18em;
+  border-radius: 0.45em;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.logo img {
+  width: 8.75em;
+  height: 6.25em;
+}
+
+.logo {
+   width: 8.75em;
+  height: 6.25em;
+}
+
+main {
+  width: 36.75rem;
+  height: 25.125rem;
+  align-self: center;
+  justify-items: center;
+  justify-self: end;
+  z-index: 20;
+  position: absolute;
+  top: 25%;
+  gap: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1 {
+  height: 13.75em;
+  font-family: sans-serif;
+  font-size: 4em;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.main2 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 4000;
+}
+
+.main3 {
+  font-family: unset;
+  color: white;
+  font-size: 1.12em;
+  margin-top: 0.625em;
+}
+
+input {
+  height: 3.5em;
+  width: 25em;
+  color: white;
+  background-color: rgba(53, 53, 53, 0.593);
+  padding-left: 0.7em;
+  border: 1px solid white;
+  z-index: 40;
+  font-size: 1em;
+}
+
+.get {
+  background-color: red;
+  color: white;
+  height: 3.5rem;
+  width: 12rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  border-radius: 0.5;
+
+}
+
+.divdown {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vw;
+  gap:0.75em;
+}
+
+.line {
+  height: 1rem;
+  width:100%;
+  background-color: rgb(79, 73, 73);
+  position: relative;
+  bottom: 1rem;
+}
+
+article {
+  width: 80%;
+  height: 40%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  top: 0;
+
+}
+
+.movies {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2em;
+}
+
+.mov {
+  height: 15.62em;
+  width: 11.25em;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 0.75em;
+  gap: 0.9em;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.mov img {
+  border-radius: 0.75em;
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  font-family: sans-serif;
+  color: white;
+  align-self: start;
+  font-size: 1.5rem;
+  position: relative;
+  top: 0;
+  width:12.5em;
+  height: 2rem;
+  padding-top: 0.25em;
+  text-align: center;
+  align-items: start;
+  padding-left: 0.75em;
+  text-align: left;
+
+  margin-bottom: 1.25em;
+}
+
+span.Top {
+  font-size: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  text-align: left;
+  align-items: start;
+  text-align: left;
+}
+
+.mov:hover {
+  transition: 0.88ms ease-out;
+  transform: scale(1.1);
+}
+
+section {
+  width: 80%;
+  height: 40%;
+  background-color: lack;
+  position: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxes {
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.boxes p {
+  color: white;
+  width: 90%;
+  font-size: 1rem;
+  font-family: sans-serif;
+  opacity: 0.6;
+  position: absolute;
+  top: 4rem;
+}
+
+section .boxes .box {
+  width: 30%;
+  text-align: center;
+  height: 100%;
+  border-radius: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+  align-items: center;
+
+  background: linear-gradient(300deg, rgb(48, 17, 17), rgba(52, 18, 84, 0.553), rgba(38, 26, 93, 0.619));
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section span {
+  font-size: 1.5rem;
+  width: 40%;
+  color: white;
+  z-index: 50;
+  position: relative;
+}
+
+.box h4 {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 1rem;
+  font-family: sans-serif;
+  top: 1.6rem;
+  font-weight: 200;
+
+}
+
+.boxes .box2 p {
+  position: absolute;
+  top: 5.5rem;
+}
+
+.ques {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.cards {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  display: flex;
+  gap: 2%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-top: 2%;
+}
+
+.cards .card {
+  width: 100%;
+  height: 13%;
+  color: white;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 2%;
+  background-color: aliceblue;
+  background: linear-gradient(to bottom, #292929, #3c3c46);
+}
+
+.ques span {
+  color: white;
+  position:relative;
+  left: 9%;
+  top: 5%;
+  height: 4rem;
+  width: 40%;
+
+}
+
+.ques .card:hover {
+  background: linear-gradient(to bottom, #3a3a3a, #4c4c56);
+}
+
+.footer {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  font-family: sans-serif;
+  flex-direction: column;
+  position: relative;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space
+  margin-top: 10%;-around;
+  justify-self: center;
+  margin-top: 10%;
+    align-self: center;
+
+}
+
+.footer1 {
+  color: white;
+  height: 20%;
+  width: 100%;
+  display: flex;
+gap: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 10%;
+
+  /* background-color: palegoldenrod; */
+}
+
+.footer1 .button {
+  padding-left: 10%;
+}
+
+.footer .footer1 input {
+  width: 100%;
+  border: 0.0625em solid rgba(255, 255, 255, 0.5);
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 15%;
+  height: 50%;
+  font-size: 0.9rem;
+  width: 80%;
+  align-self: start;
+}
+
+.footer2 {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  gap: 15%;
+  color: rgba(255, 255, 255, 0.5);
+  justify-content: center;
+  /* background-color: beige; */
+  align-items: center;
+  position: relative;
+  bottom: 10%;
+  right: 5%;
+}
+
+.footer2 p {
+  align-self: flex-start;
+}
+
+.footer3 {
+  height: 20%;
+  width: 80%;
+  display: flex;
+  /* background-color: papayawhip; */
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.5);
+  justify-content: space-around;
+  align-items: start;
+}
+
