@@ -26,3 +26,8 @@ Open index.html in your browser to view the site.
 
 🎯 Purpose
 This project is intended as a frontend practice exercise to replicate a popular streaming platform’s look and feel, focusing on layout, styling, and responsiveness
+Preview
+<img width="1920" height="965" alt="Screenshot 2026-03-17 102117" src="https://github.com/user-attachments/assets/dff77c4e-98c5-4120-a64f-0cc1bec2d132" />
+
+
+
